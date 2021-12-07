@@ -1,0 +1,83 @@
+<template>
+  <div class="flex flex-wrap">
+    <div v-for="article in pagenatedArticles" :key="article.id" class='grid w-full grid-cols-2 gap-2 p-2 text-left border hover:bg-gray-600 popular' @click="moveToArticleDetail(article.item.id)">
+        <div class="text-white">
+          <p>{{ article.item.title }}</p>
+        </div>
+      </div>
+      <!-- 페이지네이션 -->
+      <div class="relative w-full mx-auto mb-20">
+        
+      <div class="container absolute w-full mx-auto my-2" style="left:34vw">
+        <ul class="flex w-full mx-auto">
+            <li><button class="h-10 px-5 text-white border border-r-0 border-gray-600 rounded-l hover:bg-gray-500" :disabled="pageNum === 0" @click="prevPage">Prev</button></li>
+            <li><button class="h-10 px-5 text-white border border-r-0 border-gray-600 hover:bg-gray-500" v-if="pageNum > 1" @click="pageNum=0">1</button></li>
+            <li><button class="h-10 px-5 text-white border border-r-0 border-gray-600" v-if="pageNum > 1" >...</button></li>
+            <li><button class="h-10 px-5 text-white border border-r-0 border-gray-600 hover:bg-gray-500" v-if="pageNum" @click="prevPage">{{ pageNum }}</button></li>
+            <li><button class="h-10 px-5 text-white border border-r-0 border-gray-600 hover:bg-gray-500">{{ pageNum + 1 }}</button></li>
+            <li><button class="h-10 px-5 text-white border border-r-0 border-gray-600 hover:bg-gray-500" v-if="pageNum < pageCount - 1" @click="nextPage">{{ pageNum + 2 }}</button></li>
+            <li><button class="h-10 px-5 text-white border border-r-0 border-gray-600" v-if="pageNum < pageCount - 2" >...</button></li>
+            <li><button class="h-10 px-5 text-white border border-r-0 border-gray-600 hover:bg-gray-500" v-if="pageNum < pageCount - 2" @click="pageNum=pageCount-1">{{ pageCount }}</button></li>
+            <li><button class="h-10 px-5 text-white border border-gray-600 rounded-r hover:bg-gray-500" :disabled="pageNum >= pageCount - 1" @click="nextPage">Next</button></li>
+        </ul>
+    </div>
+      </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'ForumPage',
+  data: function () {
+    return {
+      pageNum: 0
+    }
+  },
+  props: {
+    articles: {
+      type: Array,
+    },
+    pageSize: {
+      type: Number,
+      required: false,
+      default: 10
+    },
+  },
+  methods: {
+    calDate: function (date) {
+      const Day = new Date()
+      if (date.slice(0,10) == Day.getFullYear() + '-' + (Day.getMonth()+1) + '-' + Day.getDate()){
+        return date.slice(11,16)
+      } else {
+        return date.slice(5, 10)
+      } 
+    },
+    nextPage: function () {
+      this.pageNum += 1;
+    },
+    prevPage: function () {
+      this.pageNum -= 1;
+    },
+    moveToArticleDetail: function (articlePk) {
+      this.$router.push({name: 'ArticleDetail', params: {articlePk: articlePk}})
+    },
+  },
+  computed: {
+    pageCount: function() {
+      let articleNum = this.articles.length
+      let articleSize = this.pageSize
+      let page = Math.floor((articleNum-1) / articleSize) + 1
+      return page
+    },
+    pagenatedArticles: function () {
+      const start = this.pageNum * this.pageSize
+      const end = start + this.pageSize
+      return this.articles.slice(start, end)
+    }
+  },
+}
+</script>
+
+<style>
+
+</style>
