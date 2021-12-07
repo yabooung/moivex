@@ -139,9 +139,9 @@ C. 아키텍처
 
 박종선 :Backend / django
 
-​	django를 바탕으로 서버 구축 및 알고리즘을통한 맞춤 서비스 구현
+​	django를 바탕으로 서버 구축 및 알고리즘을 통한 맞춤 서비스 구현
 
-전건하 : FRontend / Vue.js
+전건하 : Frontend / Vue.js
 
 ​	Vue.js를 사용하여 사용자 경험을 향상시키는 웹 페이지 설계
 
@@ -167,9 +167,9 @@ C. 아키텍처
 
 사이트내 유저들의 영화 평가를 통해서 자체 영화평가지수 서비스 제공
 
-![bandicam 2021-11-25 16-57-20-964](./README.assets/bandicam 2021-11-25 16-57-20-964.jpg)![bandicam 2021-11-25 16-57-56-628](README.assets/bandicam 2021-11-25 16-57-56-628.jpg)![bandicam 2021-11-25 16-57-31-246](README.assets/bandicam 2021-11-25 16-57-31-246.jpg)
+![bandicam 2021-11-25 16-57-20-964](./README.assets/1.jpg)![bandicam 2021-11-25 16-57-56-628](README.assets/2.jpg)![bandicam 2021-11-25 16-57-31-246](README.assets/3.jpg)
 
-![bandicam 2021-11-25 16-43-12-076](README.assets/bandicam 2021-11-25 16-43-12-076.jpg)![bandicam 2021-11-25 16-42-57-594](README.assets/bandicam 2021-11-25 16-42-57-594.jpg)![bandicam 2021-11-25 16-42-56-171](README.assets/bandicam 2021-11-25 16-42-56-171.jpg)
+![bandicam 2021-11-25 16-43-12-076](README.assets/4.jpg)![bandicam 2021-11-25 16-42-57-594](README.assets/5.jpg)![bandicam 2021-11-25 16-42-56-171](README.assets/6.jpg)
 
 ### 핵심기능
 
@@ -183,9 +183,9 @@ C. 아키텍처
 
 ### 2. 관리
 
-관리자는 검색을 통해서 영화의 DB를 추가 할 수 있음![bandicam 2021-11-25 16-39-38-532](README.assets/bandicam 2021-11-25 16-39-38-532.jpg)
+관리자는 검색을 통해서 영화의 DB를 추가 할 수 있음![bandicam 2021-11-25 16-39-38-532](README.assets7.jpg)
 
-![bandicam 2021-11-25 16-39-59-441](README.assets/bandicam 2021-11-25 16-39-59-441.jpg)
+![bandicam 2021-11-25 16-39-59-441](README.assets/8.jpg)
 
 ### 3. 프로필
 
@@ -195,19 +195,19 @@ C. 아키텍처
 
 팔로우 팔로잉 목록을 제공
 
-이미지 등록을 통해 사용자의 개성을 표현할 수있음![bandicam 2021-11-25 16-59-38-013](README.assets/bandicam 2021-11-25 16-59-38-013.jpg)
+이미지 등록을 통해 사용자의 개성을 표현할 수있음![bandicam 2021-11-25 16-59-38-013](README.assets/9.jpg)
 
-![bandicam 2021-11-25 16-59-39-546](README.assets/bandicam 2021-11-25 16-59-39-546.jpg)
+![bandicam 2021-11-25 16-59-39-546](README.assets/10.jpg)
 
-![bandicam 2021-11-25 16-59-43-439](README.assets/bandicam 2021-11-25 16-59-43-439.jpg)
+![bandicam 2021-11-25 16-59-43-439](README.assets/11.jpg)
 
-![bandicam 2021-11-25 17-00-30-738](README.assets/bandicam 2021-11-25 17-00-30-738.jpg)
+![bandicam 2021-11-25 17-00-30-738](README.assets/12.jpg)
 
-![bandicam 2021-11-25 17-00-34-517](README.assets/bandicam 2021-11-25 17-00-34-517.jpg)
+![bandicam 2021-11-25 17-00-34-517](README.assets/13.jpg)
 
-![bandicam 2021-11-25 17-00-50-449](README.assets/bandicam 2021-11-25 17-00-50-449.jpg)
+![bandicam 2021-11-25 17-00-50-449](README.assets/14.jpg)
 
-![bandicam 2021-11-25 17-00-56-803](README.assets/bandicam 2021-11-25 17-00-56-803.jpg)
+![bandicam 2021-11-25 17-00-56-803](README.assets/15.jpg)
 
 ### 4. 게시판
 
@@ -223,7 +223,7 @@ C. 아키텍처
 
 admin페이지를 통해서 영화 추가 및 삭제 가능
 
-![bandicam 2021-11-25 16-15-09-698](README.assets/bandicam 2021-11-25 16-15-09-698.jpg)
+![bandicam 2021-11-25 16-15-09-698](README.assets/16.jpg)
 
 슈퍼유저와 일반유저가 분리되어 있음
 
@@ -237,7 +237,7 @@ admin페이지를 통해서 영화 추가 및 삭제 가능
 
 유저마다 평가한 영화를 기반으로 추천알고리즘을 생성
 
-![bandicam 2021-11-25 16-40-09-733](README.assets/bandicam 2021-11-25 16-40-09-733.jpg)
+![bandicam 2021-11-25 16-40-09-733](README.assets/17.jpg)
 
 #### 추천방식
 
@@ -259,17 +259,17 @@ ex) A 영화의 장르 (드라마, 코미디, 연애)
 
 ### D. 커뮤니티
 
-게시판, 댓글을 조회, 작성, 수정, 삭제 할 수있는 커뮤니티 기능 제공![bandicam 2021-11-25 16-40-19-778](README.assets/bandicam 2021-11-25 16-40-19-778.jpg)
+게시판, 댓글을 조회, 작성, 수정, 삭제 할 수있는 커뮤니티 기능 제공![bandicam 2021-11-25 16-40-19-778](README.assets/18.jpg)
 
 작성자 본인만 본인 글을 수정/삭제 제공
 
-댓글 작성및 수정/삭제 기능 제공![bandicam 2021-11-25 16-40-27-072](README.assets/bandicam 2021-11-25 16-40-27-072.jpg)
+댓글 작성및 수정/삭제 기능 제공![bandicam 2021-11-25 16-40-27-072](README.assets/19.jpg)
 
 작성시간, 수정시간 정보 제공
 
 ### E. 기타
 
-![bandicam 2021-11-25 16-40-54-581](README.assets/bandicam 2021-11-25 16-40-54-581.jpg)영화 평가 서비스 제공![bandicam 2021-11-25 16-40-58-423](README.assets/bandicam 2021-11-25 16-40-58-423.jpg)
+![bandicam 2021-11-25 16-40-54-581](README.assets/20.jpg)영화 평가 서비스 제공![bandicam 2021-11-25 16-40-58-423](README.assets/21.jpg)
 
 ## v. 기타
 
