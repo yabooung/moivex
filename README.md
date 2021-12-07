@@ -167,7 +167,7 @@ C. 아키텍처
 
 사이트내 유저들의 영화 평가를 통해서 자체 영화평가지수 서비스 제공
 
-![bandicam 2021-11-25 16-57-20-964](README.assets/bandicam 2021-11-25 16-57-20-964.jpg)![bandicam 2021-11-25 16-57-56-628](README.assets/bandicam 2021-11-25 16-57-56-628.jpg)![bandicam 2021-11-25 16-57-31-246](README.assets/bandicam 2021-11-25 16-57-31-246.jpg)
+![bandicam 2021-11-25 16-57-20-964](./README.assets/bandicam 2021-11-25 16-57-20-964.jpg)![bandicam 2021-11-25 16-57-56-628](README.assets/bandicam 2021-11-25 16-57-56-628.jpg)![bandicam 2021-11-25 16-57-31-246](README.assets/bandicam 2021-11-25 16-57-31-246.jpg)
 
 ![bandicam 2021-11-25 16-43-12-076](README.assets/bandicam 2021-11-25 16-43-12-076.jpg)![bandicam 2021-11-25 16-42-57-594](README.assets/bandicam 2021-11-25 16-42-57-594.jpg)![bandicam 2021-11-25 16-42-56-171](README.assets/bandicam 2021-11-25 16-42-56-171.jpg)
 
